@@ -1,0 +1,33 @@
+1.what is a git ignore file and what should it include for a java project?
+A:git ignore will tell which files need to be ignored while commiting a project
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+these are the files need to be included in the java file
+
+2.what does fast-forward in git mean?
+A:fast-forward means it will move our branch tip forward to the end of our feature branch and also it will keep all commits created in our feature branch sequential while integrating that back our main branch.
+
+3.why should you different branch?
+A:branching allows us to branch out from the original code base and isolate their work from the others it will be helpful to merge the versions later.
+
+4.In a project how many remote Git repositories do you usually have?
+A:we can have multiple remote repositories but when it comes to project we prefer single repository.
